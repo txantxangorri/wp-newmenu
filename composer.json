@@ -1,0 +1,19 @@
+{
+    "name": "txinparta/wp-newmenu",
+    "description": "Awesome starter plugin example",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+       {
+            "name": "Txinparta"
+       }	    
+    ],
+    "require": {
+        "composer/installers": "1.*"
+    },
+    "extra": {
+        "branch-alias": {
+                            "dev-master": "1.0.x-dev"
+                        }
+    }
+}
