@@ -30,7 +30,6 @@ In your **composer.json** add the following clauses in each section:
         }
 ```
 
-NOTE. Open de attached composer.json to see an example ( plugin installed on a clean installation of txinparta/wordpresspj)
 
 ## Switch version
 
