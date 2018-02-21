@@ -6,6 +6,12 @@
 
 #inner {
   width: 50%;
-  margin: 0 auto;
-  color:red;
+  margin: 4em auto;
+  text-align: center; 
+}
+#txan_btn {
+    margin: 2em;
+}
+#texthidden {
+    display: none;
 }

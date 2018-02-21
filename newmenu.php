@@ -10,8 +10,8 @@
 Plugin Name: Txinparta NewMenu
 Plugin URI: https://github.com/txinparta/wp-newmenu
 Description: Irontec's plugin.
-Version: 1.0.0
-Author: Irontec 
+Version: 1.1
+Author: Irontec
 Author URI: https://github.com/txinparta
 License: AGPL-3.0-or-later
 Text Domain: txinparta_newmenu
@@ -20,7 +20,7 @@ Text Domain: txinparta_newmenu
 
 /*
 Txinparta NewMenu. It adds a new menu in the admin panel.
-Copyright (C) 2018 Irontec 
+Copyright (C) 2018 Irontec
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details. 
 */
@@ -67,6 +67,7 @@ class NewMenu
     public function enqueue() {
             // enqueue all our scripts
             wp_enqueue_style( 'mypluginstyle', plugins_url( 'assets/mystyle.css', __FILE__ ) );
+            wp_enqueue_script( 'mypluginscript', plugins_url( '/assets/myscript.js', __FILE__ ) );
     }    
     
 }
