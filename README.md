@@ -29,7 +29,7 @@ In your **composer.json** add the following clauses in each section:
             "public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
         }
 ```
-
+In this example, we have plugins hosted inside public/wp-content/plugins, as it is explained in txinparta/wordpresspj. You can change the path if you need it.
 
 ## Switch version
 
